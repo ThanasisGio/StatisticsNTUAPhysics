@@ -1,0 +1,8 @@
+  
+//-------Get the p value of a x^2 Pearson s test between a set of data X1 in a histogram and the function f used for fitting  
+  TCanvas *c1 = new TCanvas("c1","X1 set of measurements",500,500,700,500);
+  h1->Draw();
+  h1->Fit("f");
+  TF1 * f1 = h1->GetFunction("f");//Get the Chi square of the histogram compared to the fit
+  Double_t p1 = f1->GetChisquare();
+  cout<<"p1 - value  = "<<p1<<endl;

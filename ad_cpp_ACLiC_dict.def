@@ -1,0 +1,17 @@
+NAME              "" WINDOWAPI
+
+VERSION           1.0
+
+HEAPSIZE  1048576,4096
+
+EXPORTS
+        G__cpp_dllrevad_cpp_ACLiC_dict @1
+        G__set_cpp_environmentad_cpp_ACLiC_dict @2
+        G__cpp_setup_tagtablead_cpp_ACLiC_dict @3
+        G__cpp_setup_inheritancead_cpp_ACLiC_dict @4
+        G__cpp_setup_typetablead_cpp_ACLiC_dict @5
+        G__cpp_setup_memvarad_cpp_ACLiC_dict @6
+        G__cpp_setup_memfuncad_cpp_ACLiC_dict @7
+        G__cpp_setup_globalad_cpp_ACLiC_dict @8
+        G__cpp_setup_funcad_cpp_ACLiC_dict @9
+        G__cpp_setupad_cpp_ACLiC_dict @10
